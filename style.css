@@ -75,12 +75,12 @@ div > ul li a {
 
 #table {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 }
 table {
-    width: 800px;
+    width: 500px;
 }
 table, th, td {
     border: 1px solid black;
@@ -96,4 +96,29 @@ table, th, td {
 div > strong {
     font-size: 12px;
     color: #fff;
+   
 }
+
+.bg-color-table-yellow {
+   background-color: #FEFFC7;
+}
+
+
+.bg-color-table-green {
+    background-color: #C1FFC9;
+ }
+
+ 
+.bg-color-table-purple {
+    background-color: #C6C7FD;
+ }
+
+ .gambiarra {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 15px;
+ }
+
+ 
