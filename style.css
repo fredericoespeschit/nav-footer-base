@@ -61,6 +61,17 @@ div > ul li a {
     color: #fff;
     font-size: 12px;
 }
+
+
+.dropdown  {
+     position: absolute;
+     display: none;
+    background-color: rgb(42, 165, 52);
+}
+div > ul li:hover .dropdown{
+    display: block;
+}
+
 .p {
     width: 100%;
     display: flex;
@@ -120,5 +131,3 @@ div > strong {
      align-items: center;
      padding: 15px;
  }
-
- 
