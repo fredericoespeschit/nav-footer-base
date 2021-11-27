@@ -107,12 +107,19 @@ table, th, td {
     padding: 10px;
     background-color: rgb(58, 65, 62);
 }
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 div > strong {
     font-size: 12px;
     color: #fff;
-    position: fixed;
     display: block;
-   
 }
 
 .bg-color-table-yellow {
